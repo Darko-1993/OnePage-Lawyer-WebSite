@@ -1,0 +1,433 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#wrapper{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+}
+
+#menuBar{
+    width: 100%;
+    height: 95px;
+    background-color: #404040;
+}
+
+#navMenu{
+    text-align: center;
+    align-items: center;
+}
+
+#footer{
+    width: 100%;
+    height: 2.5%;
+    background-color: #404040;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+.linkNav{
+    color: white;
+    padding: 10px;
+    line-height: 100px;
+}
+
+.linkNav:hover{
+    color: #cc6600;
+    text-decoration: none;
+}
+
+#buttonConsult{
+    margin-top: 22px;
+}
+
+#buttonConsult>button{
+    background-color: #cc6600;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    width: 170px;
+    height: 50px;
+}
+
+#buttonConsult>button:hover{
+    background-color: #404040;
+    border: 2px solid #cc6600;
+    color: #cc6600;
+    cursor: pointer;
+}
+
+#center{
+    width: 100%;
+    height: 100%;
+}
+
+#ourPractice{
+    color: white; 
+    line-height: 2px;
+    font-size: 60px;
+    padding-top: 200px;
+    padding-left: 400px;
+}
+
+#yourSolution{
+    color: #cc6600; 
+    font-style: italic;
+    font-size: 55px;
+    padding-left: 400px;
+}
+
+#sekcijaLinije{
+    color: #cc6600; 
+    float: left;
+    padding-left: 400px;
+}
+
+#everyClient{
+    color: white; 
+    float: left;
+    font-size: 25px;
+}
+
+#pocetnaSekcija{
+    background-image: url("../IMG/pravdaBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+}
+
+#pocetnaSekcijaOpacity{
+    background: rgba(128,128,128,0.6);
+    height: 100%;
+}
+
+#pocetnaSekcijaTwo{
+    margin-top: 40px;
+}
+
+#achivements{
+    flex: 25%;
+    padding-top: 25px;
+}
+
+#boxCases{
+    flex: 70%;
+    background-color: #666666;
+    text-align: center;
+    align-items: center;
+    padding-left: 20px;
+    line-height: 15px;
+    padding-top: 50px;
+    height: 150px;
+}
+
+#one{
+    float: left;
+    padding-left: 30px;
+}
+
+#two{
+     float: left;
+    padding-left: 30px;
+}
+
+#three{
+     float: left;
+    padding-left: 30px;
+}
+
+#four{
+     float: left;
+    padding-left: 30px;
+}
+
+#five{
+    float: left;
+    padding-left: 30px;
+}
+
+#six{
+     float: left;
+    padding-left: 30px;
+}
+
+#lowyerPic{
+    flex: 45%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#aboutUs{
+    flex: 45%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#aboutButton{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: #cc6600;
+}
+
+#aboutButton:hover{
+    border: 2px solid #cc6600;
+    background-color: white;
+    color: #cc6600;
+    cursor: pointer;
+}
+
+#lawServices{
+    background-color: #404040;
+    width: 100%;
+    height: 630px;
+}
+
+#lawBox1{
+    flex: 22%;
+    width: 275px;
+    height: 320px;
+    background-color: #666666;
+    margin-right: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+#lawBox2{
+    flex: 22%;
+    width: 275px;
+    height: 320px;
+    background-color: #666666;
+    margin-right: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+#lawBox3{
+    flex: 22%;
+    width: 275px;
+    height: 320px;
+    background-color: #666666;
+    margin-right: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+#lawBox4{
+    flex: 22%;
+    width: 275px;
+    height: 320px;
+    background-color: #666666;
+    margin-right: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+#buttonLaw{
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#buttonLawOne{
+     width: 200px;
+    height: 60px;
+    border: 2px solid #cc6600;
+    color: #cc6600;
+    background-color: #404040;
+}
+
+#buttonLawOne:hover{
+    background-color: #cc6600;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#expertTeam{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#teamBox1{
+    flex: 22%;
+    margin-right: 15px;
+    text-align: center;
+}
+
+#teamBox2{
+    flex: 22%;
+    margin-right: 15px;
+    text-align: center;
+
+}
+
+#teamBox3{
+    flex: 22%;
+    margin-right: 15px;
+    text-align: center;
+}
+
+#teamBox4{
+    flex: 22%;
+    margin-right: 15px;
+    text-align: center;
+}
+
+#linije{
+    width: 100%;
+    border: 1px solid #404040;
+}
+
+#freeConsutation{
+    margin-bottom: 40px;
+}
+
+
+#consult{
+    padding: 20px;
+}
+
+#freeRowName{
+    flex: 45%;
+    padding-top: 40px;
+}
+
+#freeRowEmail{
+    flex: 45%;
+    padding-top: 40px;
+}
+
+#freeRowPhone{
+    flex: 45%;
+    padding-top: 40px;
+}
+
+#freeRowCase{
+    flex: 45%;
+    padding-top: 40px;
+}
+
+#consult{
+    background-color: #404040;
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.inputFree{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #cc6600;
+    outline: none;
+    color: white;
+}
+
+.inputFreeCase{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #cc6600;
+    outline: none;
+    color: white; 
+    width: 490px;
+}
+
+#caseDetail{
+    text-align: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+#sendConsult{
+    width: 220px;
+    height: 70px;
+    background-color: #cc6600;
+    color: white;
+}
+
+#sendConsult:hover{
+    border: 2px solid #cc6600;
+    background-color: #404040;
+    color: #cc6600;
+    cursor: pointer;
+}
+
+#stayInTouch{
+    width: 800px;
+    height: 100px;
+    background-color: #cc6600;
+    margin-bottom: 60px;
+}
+
+#stay{
+    float: left;
+    padding-left: 30px;
+    padding-top: 25px;
+}
+
+#emailadress{
+    float: left;
+     padding-left: 70px;
+    padding-top: 38px;
+}
+
+#subscribe{
+    float: left;
+    padding-left: 10px;
+    padding-top: 31px;
+}
+
+#subscribe>button{
+    width: 110px;
+    height: 40px;
+    background-color: white;
+    color: #404040;
+    border: 1px solid #404040;
+    cursor: pointer;
+}
+
+#phoneCont{
+    flex: 32%;
+    border: 2px solid #cc6600;
+    border-radius: 15px;
+    margin-right: 15px;
+    height: 200px;
+    text-align: center;
+    background-color: #404040;
+    padding-top: 30px;
+}
+
+#emailCont{
+    flex: 32%;
+    border: 2px solid #cc6600;
+    border-radius: 15px;
+     margin-right: 15px;
+    height: 200px;
+    text-align: center;
+    background-color: #404040;
+     padding-top: 30px;
+}
+
+#adressCont{
+    flex: 32%;
+    border: 2px solid #cc6600;
+    border-radius: 15px;
+    margin-right: 15px;
+    height: 200px;
+    text-align: center;
+    background-color: #404040;
+    padding-top: 30px;
+}
